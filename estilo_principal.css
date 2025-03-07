@@ -1,0 +1,81 @@
+.fondo {
+    background-image: url(Imagenes/imgs/pexels-pixabay-159400.png);
+    background-color: black;
+    animation: dashboard 1s linear 8s forwards;
+    
+}
+
+.logotipo {
+    position: absolute;
+    z-index: -1;
+    left: 850px;
+    top: 350px;
+    animation: logo 3s linear 1s forwards;
+}
+.login {
+    opacity: 0;
+    visibility: hidden;
+    margin: auto;
+    padding: 35px;
+    border-radius:50px ;
+    margin-top: 250px;
+    width: 640px;
+    height: 360px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    animation: login 4s ease-out 4s forwards;
+}
+.login_logotipo {
+    line-height: 0.5px;
+    text-align: center;
+}
+.login_titulo {
+    text-align: center;
+}
+@keyframes dashboard {
+    from {
+        opacity: 0;
+        visibility: hidden;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+        background-color: white;
+        background-image: none;
+    }
+}
+@keyframes login{
+    50%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    90%{
+        opacity: 1;
+        visibility: visible;
+    }
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@keyframes logo {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    25%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    50%{
+        opacity: 1;
+        visibility: visible;
+    }
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+   
+}

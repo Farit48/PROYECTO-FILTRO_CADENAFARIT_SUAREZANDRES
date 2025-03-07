@@ -1,0 +1,88 @@
+.body {
+    background-image: url(Imagenes/imgs/pexels-pixabay-159400.png);
+    background-color: black;
+    
+}
+.logotipo {
+    position: absolute;
+    z-index: -1;
+    left: 850px;
+    top: 350px;
+    animation: logo 3s linear 1s forwards;
+}
+.login {
+    opacity: 0;
+    visibility: hidden;
+    margin: auto;
+    padding: 25px;
+    border-radius:50px ;
+    margin-top: 200px;
+    width: 640px;
+    height: 560px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    animation: login 1s linear 4s forwards;
+}
+.login_logotipo {
+    line-height: 0.5px;
+    text-align: center;
+}
+.login_titulo {
+    text-align: center;
+}
+.login_Formulario{
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+}
+.login_Formulario-boton{
+    margin: auto;
+    margin-top: 35px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(256,116,28);
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+}
+.login_Formulario-boton  a {
+    color: white;
+}
+
+.login_consejo {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+@keyframes login{
+    from{
+        opacity: 0;
+        visibility: hidden;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+@keyframes logo {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    25%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    50%{
+        opacity: 1;
+        visibility: visible;
+    }
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+   
+}
