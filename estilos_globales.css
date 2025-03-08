@@ -1,3 +1,36 @@
 a:any-link {
     text-decoration: none;
 }
+body {
+    margin: 0px;
+}
+.Barra {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+.Barra_nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 30px;
+}
+.Barra_nav a {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+.opciones_Usuario {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: end;
+}
+.logos {
+    margin: 10px;
+}

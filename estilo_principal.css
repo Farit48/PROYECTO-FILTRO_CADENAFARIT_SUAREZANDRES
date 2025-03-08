@@ -2,7 +2,6 @@
     background-image: url(Imagenes/imgs/pexels-pixabay-159400.png);
     background-color: black;
     animation: dashboard 1s linear 8s forwards;
-    
 }
 
 .logotipo {
@@ -34,6 +33,70 @@
 .login_titulo {
     text-align: center;
 }
+.Barra {
+    opacity: 0;
+    animation: barra 0.1s linear 9s forwards;
+    
+}
+
+.main {
+    opacity: 0;
+    height: 0px;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px;
+    animation: main 0.1s linear 9.50s forwards;
+}
+.tabla{
+    display: grid;
+    column-gap: 30px;
+    row-gap: 20px;
+    grid-template-columns: 90% 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Titulos, .Contenido{
+    border: 1px solid black; 
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}   
+.Titulos {
+    border: none;
+}
+.boton {
+    
+    color: white;
+    margin-top: 50px;
+    width: 335px;
+    height: 50px;
+    background-color: rgb(256,116,28);
+    border-radius: 50px;
+    border: none;
+    font-size: 19px;
+}
+@keyframes main {
+    from {
+        opacity: 0;
+        height: 0px;
+        overflow: hidden;
+    }
+    to {
+        opacity: 1;
+        height: auto;
+    }  
+}
+@keyframes barra {
+    from {
+        opacity: 0;
+        visibility: hidden;
+    }
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+}
 @keyframes dashboard {
     from {
         opacity: 0;
@@ -58,6 +121,7 @@
     100%{
         opacity: 0;
         visibility: hidden;
+        display: none;
     }
 }
 @keyframes logo {
@@ -76,6 +140,7 @@
     100%{
         opacity: 0;
         visibility: hidden;
+        display: none;
     }
    
 }
