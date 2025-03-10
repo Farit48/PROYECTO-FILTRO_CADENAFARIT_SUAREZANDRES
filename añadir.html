@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos_globales.css">
+    <link rel="stylesheet" href="estilo_añadir.css">
 </head>
 <body>
     <div class="Barra">
         <nav class="Barra_nav">
-            <a href="#"><img width="30" class="logos"  src="Imagenes/logos/ICONO_AÑADIR.svg" alt="">Añadir</a>
-            <a href="#"><img width="30" class="logos"  src="Imagenes/logos/ICONO_RESTABLECER.svg" alt="">Refrescar</a>
+            <a href="añadir.html"><img width="30" class="logos"  src="Imagenes/logos/ICONO_AÑADIR.svg" alt="">Añadir</a>
+            <a href="#" ><img width="30" class="logos"  src="Imagenes/logos/ICONO_RESTABLECER.svg" alt="">Refrescar</a>
             <a href="#"><img width="30" class="logos"  src="Imagenes/logos/ICONO_ELIMINAR.svg" alt="">Eliminar</a>
             <img width="50" src="Imagenes/logos/LOGOTIPO.svg" alt="">
             <a href="#"><img width="30" class="logos" src="Imagenes/logos/ICONO_REPORTAR.svg" alt="">Reportar</a>
@@ -24,6 +25,18 @@
             </div>
         </div>
     </div>
-   
+   <main>
+        <div class="añadir">
+            <span>Indicador</span><input type="text">
+            <span>Descripcion</span><textarea name="" id="" cols="30" rows="10"></textarea>
+            <span>Categoria</span><input type="text">
+            <span>Fecha inicio</span><input type="date">
+            <span>Fecha Terminacion</span><input type="date">
+            <span>Formula</span><input type="text">
+            <span>Frecuencia</span><input type="text">
+            <span>Cumplimineto</span><input type="text">
+        </div>
+        <button>Añadir</button>
+   </main>
 </body>
 </html>

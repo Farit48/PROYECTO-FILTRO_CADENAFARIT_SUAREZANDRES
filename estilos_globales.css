@@ -34,3 +34,6 @@ body {
 .logos {
     margin: 10px;
 }
+input {
+    border-radius: 50px;
+}
