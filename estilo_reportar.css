@@ -1,3 +1,4 @@
+/**Animacion general de la barra de navegacion**/
 a[href="reportar.html"]{
     background-color: white;
     animation: añadir 1s ease 0.1s forwards;
@@ -16,6 +17,7 @@ a[href="reportar.html"]{
 
     }
 }
+/**Aqui empieza el main**/
 main{
     padding: 60px;
 }

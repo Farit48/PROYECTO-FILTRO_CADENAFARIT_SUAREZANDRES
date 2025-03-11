@@ -1,3 +1,4 @@
+/**Animacion general de la barra de navegacion**/
 a[href="ayuda.html"]{
     background-color: white;
     animation: añadir 1s ease 0.1s forwards;

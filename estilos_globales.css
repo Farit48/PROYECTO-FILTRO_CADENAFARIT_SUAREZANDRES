@@ -1,37 +1,56 @@
+
+/***Clases Globales****/
+/***Para todos los links****/
 a:any-link {
     text-decoration: none;
 }
+/***Para todo los bodies****/
 body {
     margin: 0px;
 }
+/***La Barra de navegacion principal****/
 .Barra {
-    display: flex;
+    /*Estilo*/
     border-bottom: 1px solid black;
-    padding: 8px;
     height: 50px;
+    padding: 8px;
+    /*Maquetacion*/
+    display: flex;  
     overflow: visible;
     
 }
+/***La Barra de navegacion De los links****/
 .Barra_nav {
+    /*Estilo*/
+    height: 50px;
+    column-gap: 30px;
+    width: 100%;
+    /*Maquetacion*/
     display: flex;
     flex-direction: row;
-    width: 100%;
-    column-gap: 30px;
-    height: 50px;
+  
+    
+    
 }
 .Barra_nav a {
+    /*Estilo*/
     width: 300px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    /*Maquetacion*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: black;
-    font-weight: 700;
-    font-size: 20px;
+  
+ 
 }
 .Barra_Usuario {
-    display: flex;
+    /*Estilo*/
     width: 100%;
+    /*Maquetacion*/
+    display: flex;
     gap: 20px;
     justify-content: end;
 }
