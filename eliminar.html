@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos_globales.css">
-    <link rel="stylesheet" href="estilo_añadir.css">
+    <link rel="stylesheet" href="estilo_eliminar.css">
 </head>
 <body>
     <div class="Barra">
@@ -25,18 +25,21 @@
             </div>
         </div>
     </div>
-   <main>
-        <div class="añadir">
-            <span>Indicador</span><input type="text">
-            <span>Descripcion</span><textarea name="" id="" cols="30" rows="10"></textarea>
-            <span>Categoria</span><input type="text">
-            <span>Fecha inicio</span><input type="date">
-            <span>Fecha Terminacion</span><input type="date">
-            <span>Formula</span><input type="text">
-            <span>Frecuencia</span><input type="text">
-            <span>Cumplimineto</span><input type="text">
+    <main>
+        <div class="Eliminar">
+            <div class="Eliminar_buscar">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-zoom-cancel"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M8 8l4 4" /><path d="M12 8l-4 4" /><path d="M21 21l-6 -6" /></svg>
+                <input type="text" name="" id=""> 
+            </div>
+            <div class="Eliminar_filtro">
+                <div class="Eliminar_filtro-logo">
+                    <hr class="hr1">
+                    <hr class="hr2">
+                    <hr class="hr3">
+                </div>
+                <h3>Filtrar</h3>
+            </div>
         </div>
-        <button>Añadir</button>
-   </main>
+    </main>
 </body>
 </html>

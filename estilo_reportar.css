@@ -1,0 +1,95 @@
+a[href="reportar.html"]{
+    background-color: white;
+    animation: añadir 1s ease 0.1s forwards;
+}
+
+@keyframes añadir {
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: black;
+        border-radius: 50px;
+        color: rgb(256,116,28);
+        border-style: double;
+        border-color: white;
+
+    }
+}
+main{
+    padding: 60px;
+}
+.Tabla{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 50% 30%;
+    text-align: center;
+    justify-content: center;
+    
+}
+.Tabla_contendido{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px  ;
+    padding: 10%;
+    height: 80%;
+}
+.Tabla_contendido h1{
+    font-size: 50px;
+}
+.Tabla_contendido_emoji {
+    display: flex;
+}
+.Tabla_emoj-cara {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(256,116,28);
+    border-radius: 50%;
+    display: flex;
+}
+.Reportar {
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    height: 300px;
+    border-radius: 50px;
+    background-color: rgb(256,116,28);
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 60% 40%;
+    padding: 2%;
+}
+.Reportar_envio {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Reportar_envio textarea {
+    margin: auto;
+    border-radius: 20px;
+    width: 600px;
+    height: 250px;
+}
+.Reportar_otros{
+    padding: 25px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+.Reportar_otros-logo {
+    display: flex;
+    align-items: center;
+}
+button {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(256,116,28);
+    border-radius: 50px;
+    font-size: 15px;
+    color: white;
+
+}

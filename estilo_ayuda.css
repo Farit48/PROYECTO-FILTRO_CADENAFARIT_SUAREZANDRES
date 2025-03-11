@@ -1,0 +1,48 @@
+a[href="ayuda.html"]{
+    background-color: white;
+    animation: añadir 1s ease 0.1s forwards;
+}
+@keyframes añadir {
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: black;
+        border-radius: 50px;
+        color: rgb(256,116,28);
+        border-style: double;
+        border-color: white;
+
+    }
+}
+
+main {
+    padding: 50px;
+}
+.Ayuda {
+    font-size: 50px;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    text-align: start;
+}
+.Ayuda_Preguntas {
+    line-height: 120px;
+}
+.Ayuda_contactos {
+   width: 100%;
+   height: 100%;
+   pad: 20px;
+}
+.Ayuda_contactos-recuadro {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(256,116,28);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}

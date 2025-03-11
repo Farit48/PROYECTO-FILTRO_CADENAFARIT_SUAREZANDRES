@@ -1,0 +1,63 @@
+a[href="eliminar.html"]{
+    background-color: white;
+    animation: añadir 1s ease 0.1s forwards;
+}
+
+
+.Eliminar {
+    display: grid;
+    grid-template-columns: 50% 20%;
+    padding: 20px;
+    height: 70px;
+    padding-left: 200px;
+    column-gap: 200px;
+    align-items: center;
+   
+}
+.Eliminar_buscar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(256,116,28);
+    padding: 20px;
+    border-radius: 50px;
+}
+.Eliminar_buscar input{
+    width: 100%;
+    height: 40px;
+}
+.Eliminar_filtro {
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(256,116,28);
+
+}
+.Eliminar_filtro  {
+    color: white;
+}
+.Eliminar_filtro .hr1{
+    width: 40px;
+}
+.Eliminar_filtro .hr2{
+    width: 20px;
+}
+.Eliminar_filtro .hr3{
+    width: 10px;
+}
+@keyframes añadir {
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: black;
+        border-radius: 50px;
+        color: rgb(256,116,28);
+        border-style: double;
+        border-color: white;
+
+    }
+}

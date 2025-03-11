@@ -1,0 +1,47 @@
+a[href="añadir.html"]{
+    background-color: white;
+    animation: añadir 1s ease 0.1s forwards;
+}
+
+main{
+    text-align: center;  
+}
+.añadir {
+    padding: 5%;
+    display: grid;
+    width: 40%;
+    height: 600px;
+    grid-template-columns: 30% 70%;
+    row-gap: 50px;
+    column-gap: 50px;
+    margin: auto;
+    margin-top: 50px;
+    border: 20px solid rgb(256,116,28);
+    border-radius: 20px;
+    font-size: 25px;
+}
+button {
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 35px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(256,116,28);
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+@keyframes añadir {
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: black;
+        border-radius: 50px;
+        color: rgb(256,116,28);
+        border-style: double;
+        border-color: white;
+
+    }
+}
